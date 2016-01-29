@@ -1,8 +1,3 @@
-function Customer(customerName, customerAddress, customerPhone) {
-	this.customerName = String(customerName);
-	this.customerAddress = String(customerAddress);
-	this.customerPhone = String(customerPhone);
-}
 
 function Pizza(quantity, size) {
   this.quantity = quantity;
@@ -11,7 +6,7 @@ function Pizza(quantity, size) {
   this.meatTopping =[];
 };
 
-Pizza.prototype.cost = function() {
+Pizza.prototype.Cost = function() {
   var totalCost = 8 + (this.vegatableTopping.length * 1) + (this.meatTopping.length * 2);
 
   if (this.size == "small") {
@@ -40,7 +35,7 @@ $(document).ready(function() {
       newPizza.meatTopping.push(meatTopping);
     });
 
-    var pizzaPrice = newPizza.cost();
+    var pizzaPrice = newPizza.Cost();
 
     $("#price").text(pizzaPrice);
 
