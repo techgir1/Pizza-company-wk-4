@@ -7,18 +7,151 @@
   <script src="js/scripts.js"></script>
   <script src="js/bootstrap.min.js"></script>
  
-
-	<title></title>
+  <title>Pizza Company</title>
 </head>
 
-
 <body>
-	<div class="container">
-	<h1></h1>
+<div class="container-fluid">
 
-	
 </div>
 
 
-</body>
+
+
+
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1><span id="green">Beth's</span> <span id="logo"><img src="img/logo.jpg" alt="pizza logo" height="50" width="50"></span> <span id="red">Pizzadore</span></h1>
+          <form id="order-form">
+          <h3>Create Your Own Pizza</h3>
+            <h4>Toppings</h4>
+
+            <h5>Vegatables</h5>
+            <div class="checkbox">
+              <label>
+                <input class="vegatable" type="checkbox" value="artichoke">Onions
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="mushroom">Fresh Mushrooms
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="spinach">Canned Mushrooms
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="olives">Black Olives
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="tomatoes">Roma Tomatoes
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="onions">Pineapple
+              </label>
+              <br>
+
+              <label>
+                <input class="vegatable" type="checkbox" value="bell-pepper">Green Pepper
+              </label>
+
+            </div>
+
+            <br>
+
+            <h5>Meat</h5>
+
+              <div class="checkbox">
+                <label>
+                  <input class="meat" type="checkbox" value="pepperoni">Pepperoni
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="sausage">Italian sausage
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="salami">Salami
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="ham">Ham
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="bacon">Ground Beef
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="chicken">Linguica
+                </label>
+                <br>
+
+                <label>
+                  <input class="meat" type="checkbox" value="pork">Bacon
+                </label>
+
+              </div>
+
+            <br>
+
+            <h4>Extras</h4>
+
+            <div class="checkbox">
+                <label>
+                  <input class="vegatable" type="checkbox" value="cheese">Extra Cheese
+                </label>
+
+                <label>
+                  <input class="vegatable" type="checkbox" value="sauce">Extra Sauce
+                </label>
+
+              </div>
+
+            <br>
+
+            <h4>Choose size</h4>
+
+            <div class="form-group">
+              <select class="form-control" id="size" placeholder ="Size"required >
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="x-large">Extra Large</option>
+              </select>
+            </div>
+
+            <br>
+            <h4>Quantity</h4>
+
+            <div class ="form-group">
+              <input type="number" class="form-control" id="quantity" placeholder="Quantity" required>
+            </div>
+            <br>
+
+            <button type="submit" class="btn btn-default">Order Now</button>
+          </form>
+
+          <div id="result">
+            <h2>Total $<span id="price"></span></h2>
+          </div>
+
+        </div> 
+      </div> 
+    </div> 
+
+  </body>
 </html>
