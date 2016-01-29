@@ -1,7 +1,8 @@
 body {
-	background-color: black;
+	background-color: #1a1a1a;
 	color: white;
-	border-left: 400px;
+	padding-left: 50px;
+	padding-right: 300px;
 }
 
 #green {
