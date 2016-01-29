@@ -20,3 +20,10 @@ describe("Pizza", function() {
 		expect(testPizza.topping).to.eql([]);
 	});
 });
+
+describe("Cost", function() {
+	it("returns the price of a small pizza with one topping", function() {
+		var testPizza = new Pizza(1, "small");
+		expect(testPizza.Cost()).to.equal(8);
+	});
+});

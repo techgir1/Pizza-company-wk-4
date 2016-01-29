@@ -9,3 +9,11 @@ function Pizza(quantity, size) {
 	this.size = size;
 	this.topping = [];
 };
+
+Pizza.prototype.Cost = function() {
+	var totalCost = 8 + (this.topping.length * 1);
+
+	if (this.size == "small") {
+		return totalCost * this.quantity;
+	}
+};
