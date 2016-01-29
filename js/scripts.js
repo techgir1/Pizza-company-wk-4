@@ -15,5 +15,7 @@ Pizza.prototype.Cost = function() {
 
 	if (this.size == "small") {
 		return totalCost * this.quantity;
+	} else if (this.size == "medium") {
+		return (totalCost + 4) * this.quantity;
 	}
 };
