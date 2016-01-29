@@ -19,6 +19,16 @@ header {
 	color: red;
 }
 
+.container-fluid-left {
+	float: left;
+}
+
+.container-fluid-right {
+	float: right;
+	padding-top: 10px;
+	padding-right: 300px;
+}
+
 
 
 
