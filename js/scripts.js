@@ -7,11 +7,12 @@ function Customer(customerName, customerAddress, customerPhone) {
 function Pizza(quantity, size) {
 	this.quantity = quantity;
 	this.size = size;
-	this.topping = [];
+	this.vegatableTopping = [];
+	this.meatTopping = [];
 };
 
 Pizza.prototype.Cost = function() {
-	var totalCost = 8 + (this.topping.length * 1);
+	var totalCost = 8 + (this.vegatableTopping.length * 1) + (this.meatTopping.length * 2);
 
 	if (this.size == "small") {
 		return totalCost * this.quantity;
@@ -23,3 +24,12 @@ Pizza.prototype.Cost = function() {
 		return (totalCost + 14) * this.quantity;
 	}
 };
+
+
+
+
+
+
+
+
+
