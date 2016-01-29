@@ -11,3 +11,12 @@ describe("Customer", function() {
 		expect(testCustomer.customerPhone).to.be.a("string");
 	});
 });
+
+describe("Pizza", function() {
+	it("creates a custom pizza", function() {
+		var testPizza = new Pizza(1, "large");
+		expect(testPizza.quantity).to.equal(1);
+		expect(testPizza.size).to.equal("large");
+		expect(testPizza.topping).to.eql([]);
+	});
+});
