@@ -36,4 +36,9 @@ describe("Cost", function() {
 		var testPizza = new Pizza(1, "large");
 		expect(testPizza.Cost()).to.equal(18);
 	});
+
+	it("returns the price of an x-large pizza with one topping", function() {
+		var testPizza = new Pizza(1, "x-large");
+		expect(testPizza.Cost()).to.equal(22);
+	});
 });
