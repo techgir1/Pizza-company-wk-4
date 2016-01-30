@@ -4,6 +4,8 @@ Program Name: Pizza Company
 
 Description: A website that allows the user to order a pizza, and see the final cost. The user can choose from a list of toppings. Choose the size of the pizza. And choose the quantity.
 
+Special Instructions: Please view in fullscreen.
+
 link to site on GitHub Pages: [techgir1][https://techgir1.github.io] [ping-pong][https://techgir1.github.io/Pizza-company-wk-4]
 
 License
