@@ -20,15 +20,12 @@ header {
 }
 
 .container-fluid-left {
+	padding-top: 20px;
 	float: left;
 }
 
 .container-fluid-right {
 	float: right;
-	padding-top: 10px;
+	padding-top: 90px;
 	padding-right: 300px;
 }
-
-
-
-
