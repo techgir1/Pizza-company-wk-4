@@ -6,7 +6,7 @@ Description: A website that allows the user to order a pizza, and see the final 
 
 Special Instructions: Please view in fullscreen.
 
-link to site on GitHub Pages: [techgir1][https://techgir1.github.io] [ping-pong][https://techgir1.github.io/Pizza-company-wk-4]
+link to site on GitHub Pages: [techgir1][https://techgir1.github.io] [pizza-company-wk-4][https://techgir1.github.io/Pizza-company-wk-4]
 
 License
 
